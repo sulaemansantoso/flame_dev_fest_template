@@ -1,0 +1,27 @@
+name: flutter_flame_devfest
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flame: ^1.21.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/images/alienBlue/
+    - assets/images/background/
+    - assets/images/bad_item/
+    - assets/images/item/
